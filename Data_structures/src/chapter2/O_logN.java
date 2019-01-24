@@ -48,4 +48,11 @@ public class O_logN {
 		else
 			return pow(x * x, n / 2) * x;
 	}
+	
+	public static boolean isEvent(int n) {
+		if(n % 2==0)
+			return true;
+		else
+			return false;
+	}
 }
